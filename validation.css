@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
+body{
+    width: 100vh;
+    height: 100vh;
+    background-color:dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-left: 350px;
+}
+
+.container{
+    background-color: #ffff;
+    width:550px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.container h2{
+    font-weight:bolder;
+    text-align: center;
+    text-transform:capitalize;
+    margin-bottom:20px;
+}
+
+.form{
+    padding: 30px 40px;
+
+}
+
+.form-group{
+    color: #777;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+
+}
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+    color: #3c40c6;
+    font-weight:bolder;
+}
+
+.form-group input{
+    border: 2px solid #aaa;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.form-group p{
+    font-size: 12px;
+    margin-top: 5px;
+    visibility: hidden;
+}
+
+.form button{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid goldenrod;
+    color: #fff;
+    background-color: goldenrod;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size:18px;
+    letter-spacing:1px;
+    font-weight:bold;
+}
+
+.form-group.error p{
+    color: red;
+    visibility: visible;
+}
+
+.form-group.error input{
+    border-color: red;
+}
+/* .form-group.success p{
+    color: green;
+} */
+
+.form-group.success input{
+    border-color: green;
+}

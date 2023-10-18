@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./validation.css" />
+    <title>Form Validation</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <form action="#" id="form" class="form" autocomplete="off">
+        <h2>SignUp Form</h2>
+
+        <div class="form-group">
+          <label for="username">User Name</label>
+          <input type="text" id="username" data-name="User Name" placeholder="Enter your name" />
+          <p>Error Message</p>
+        </div>
+
+        <div class="form-group">
+          <label for="emai">Email</label>
+          <input type="email" id="email" data-name="Email Id"  placeholder="Enter your Email Id" />
+          <p>Error Message</p>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" data-name="Password"  placeholder="Enter your password" />
+          <p>Error Message</p>
+        </div>
+        <div class="form-group">
+          <label for="password1">Confirm password</label>
+          <input type="password" id="password1" data-name="Confirm Password"  placeholder="Enter confirm password" />
+          <p>Error Message</p>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="./validation.js"></script>
+  </body>
+</html>
